@@ -286,7 +286,7 @@ header div.celebscroll {
   height: 500px;
   width: 4000px;
   background-image: url("/img/floatbg02.jpg");
-  animation: move 50s infinite linear;
+  animation: move 175s infinite linear;
   will-change: transform;
   opacity: 0.5;
 }
