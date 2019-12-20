@@ -78,9 +78,7 @@ summary,
 time,
 mark,
 audio,
-video,
-div.navbox nav .navbar-brand h4,
-div.navbox nav .navbar-brand p {
+video {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -127,37 +125,6 @@ table {
 * {
   box-sizing: border-box !important;
 }
-@font-face {
-  font-family: 'Alfa Slab One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Alfa Slab One Regular'), local('AlfaSlabOne-Regular'), url(https://fonts.gstatic.com/s/alfaslabone/v9/6NUQ8FmMKwSEKjnm5-4v-4Jh2dJhfg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
-}
-/* Color Theme Swatches in Hex */
-.txtbutton {
-  background-color: #020873;
-  color: #effde4;
-  padding: 4px;
-  width: 35%;
-  text-align: center;
-  border: 10px solid #020873;
-}
-.txtbutton:hover {
-  background-color: #effde4;
-  color: #020873;
-}
-
-/****************
-My Code
-*****************/
 html {
   background-color: #effde4;
   font-size: 62.5%;
@@ -169,9 +136,8 @@ body {
   font-size: 1.6rem;
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 }
-
 /*****Header Navigation*****/
-.navigation{
+.navigation {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
@@ -181,9 +147,9 @@ body {
 }
 .hdnav {
   align-items: left;
-  
 }
-.hdnav a, .account a{
+.hdnav a,
+.account a {
   border: 5px outset purple;
   padding: 5px;
   border-radius: 30%;
@@ -191,20 +157,15 @@ body {
   color: white;
   margin: 8px;
 }
-
-.hdnav a:hover, .account a:hover{
+.hdnav a:hover,
+.account a:hover {
   background: lightgray;
   color: black;
   border: 7px inset indigo;
 }
-.account{
+.account {
   align-items: right;
 }
-
-
-
-
-/*****Header Section*****/
 h1 {
   font-family: "Alfa Slab One", sans-serif;
   color: #651186;
@@ -226,7 +187,6 @@ p {
   font-family: "Merriweather", sans-serif;
   color: #651186;
 }
-
 .hdtxt {
   text-shadow: 0 0 15px #ffffff;
   z-index: 99;
@@ -238,33 +198,70 @@ p {
   font-size: 1.7em;
   line-height: 1.5;
   font-weight: bold;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 33%;
 }
-
-.dead, .alive {
+.hdtxt .p1,
+.hdtxt .p2a,
+.hdtxt .p2b,
+.hdtxt .p3 {
+  border: 2px solid #ad15b3;
+  padding: 1.5%;
+}
+.hdtxt .p1,
+.hdtxt .p3 {
+  margin: 1% 35%;
+  border-radius: ;
+}
+.hdtxt .p1 {
+  border-radius: 25% 25% 2% 2%;
+}
+.hdtxt .p3 {
+  border-radius: 2% 2% 25% 25%;
+}
+.hdtxt .p2a,
+.hdtxt .p2b {
+  margin: 1% 3% 0 0;
+}
+.hdtxt .p2a {
+  border-radius: 25% 2%;
+}
+.hdtxt .p2b {
+  border-radius: 2% 25%;
+}
+.midp {
+  display: inline-flex;
+  margin: auto 0% 0 25%;
+  align-content: space-evenly;
+}
+.dead,
+.alive {
   border: 3px outset white;
-  padding:10px;
-  border-radius: 45%;
+  padding: 10px;
+  border-radius: 30% 2%;
   font-weight: bold;
+  position: relative;
 }
-
-.dead{
- background: grey;
- color: black;
+.dead {
+  background: grey;
+  color: black;
 }
-.dead:hover{
+.dead:hover {
   border: 4px inset white;
   background: black;
 }
-.alive{
+.alive {
   background: cadetblue;
   color: blue;
 }
-.alive:hover{
+.alive:hover {
   border: 4px inset white;
   background: navy;
 }
-
 strong {
   font-weight: bold;
 }
@@ -305,6 +302,22 @@ header div.header {
 header div.header h2 {
   color: #ad15b3;
 }
+@font-face {
+  font-family: 'Alfa Slab One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alfa Slab One Regular'), local('AlfaSlabOne-Regular'), url(https://fonts.gstatic.com/s/alfaslabone/v9/6NUQ8FmMKwSEKjnm5-4v-4Jh2dJhfg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+/***Colors***/
+/***About***/
 header.about {
   height: 300px;
   background-image: linear-gradient(#4bd1a9, #effde4);
@@ -332,10 +345,3 @@ header h2.about {
     transform: translateY(0) translateX(1000px);
   }
 }
-
-
-
-
-
-
-
