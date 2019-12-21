@@ -1,45 +1,107 @@
 html {
-    background-color: #effde4;
-    font-size: 62.5%;
-  }
-  #home {
-    height: 100%;
-    font-family: "Merriweather", sans-serif;
-    color: #222;
-    font-size: 1.6rem;
-    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
-  }
+  background-color: #effde4;
+  font-size: 62.5%;
+}
+#home {
+  height: 100%;
+  font-family: "Merriweather", sans-serif;
+  color: #222;
+  font-size: 1.6rem;
+  background-image: @bg7;
+}
+
+/*****Header Navigation*****/
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  font-size: 1.7em;
+  padding: 1.5% 0;  
   
-  /*****Header Navigation*****/
-  .navigation{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    font-size: 1.7em;
-    padding: 1.5% 0;
-    margin: auto 0;
-  
-  .hdnav {
-    align-items: left;
+  @media @mobile {
+    font-size: 0.7em;
   }
 
-  .account {
-    align-items: right;
+  @media @tablet {
+    font-size: 0.7em;
+  }
+
+.hdnav a, .account a{
+  border: 5px outset indigo;
+  padding: 15px 40px; 
+  border-radius: 30%;
+  background: @bg8;
+  color: white;
+
+  @media @mobile {
+    border: 2px outset silver;
+    background: @bg9;
+    padding: 5px; 
+    color: snow;
+  }
+
+  @media @tablet {
+    border: 2px outset silver;
+    background: @bg9;
+    padding: 5px; 
+    color: snow;
   }
   
-  .hdnav a, .account a{
-    border: 5px outset purple;
-    padding: 5px;
-    border-radius: 30%;
-    background: red;
+}
+
+.hdnav a:hover, .account a:hover{
+  background: @bg9;
+  color: snow;
+  border: 7px inset silver;
+
+  @media @mobile {
+    border: 2px inset indigo;
+    background: @bg8;
+    padding: 5px; 
     color: white;
-    margin: 8px; 
   }
-  
-  .hdnav a:hover, .account a:hover{
-    background: lightgray;
-    color: black;
-    border: 7px inset indigo;
+
+  @media @tablet {
+    border: 2px inset indigo;
+    background: @bg8;
+    padding: 5px; 
+    color: white;
   }
-  
+
+}
+
+}
+
+/***Take Quiz Button***/
+
+#takequiz {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 33.4%;
+  font-size: 7rem;
+  text-align: center;
+  margin: 0 33.3% 10%;
+  padding: 25px 15px;
+  font-weight: bold;
+  border-radius: 50% 2% 50%;
+  border: 5px outset black;
+  background-image: @bg4;  
+
+  @media @mobile {
+    width: 100%;
+    font-size: 3rem;
+    margin: 0;
   }
+  @media @tablet {
+    width: 100%;
+    font-size: 3rem;
+    margin: 0;
+  }
+}
+
+#takequiz:hover{
+  border: 7px inset silver;
+  background-image: @bg5;
+}
