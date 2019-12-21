@@ -14,22 +14,26 @@ html {
   .navigation{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    align-content: center;
     font-size: 1.7em;
     padding: 1.5% 0;
     margin: auto 0;
-  }
+  
   .hdnav {
     align-items: left;
-    
   }
+
+  .account {
+    align-items: right;
+  }
+  
   .hdnav a, .account a{
     border: 5px outset purple;
     padding: 5px;
     border-radius: 30%;
-    background: black;
+    background: red;
     color: white;
-    margin: 8px;
+    margin: 8px; 
   }
   
   .hdnav a:hover, .account a:hover{
@@ -37,7 +41,5 @@ html {
     color: black;
     border: 7px inset indigo;
   }
-  .account{
-    align-items: right;
-  }
   
+  }
