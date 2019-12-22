@@ -617,23 +617,24 @@ header .header h2 {
   font-weight: bold;
   flex-wrap: wrap;
 }
-#about .theTeam img {
-  width: 90%;
-  border: 5px outset white;
-  border-radius: 30% 2%;
+#about .theTeam .pics,
+#about .theTeam .pics div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
 }
-@media (max-width: 500px) {
-  #about .theTeam img {
-    width: 50%;
-  }
+#about .theTeam .pics {
+  transform: rotate(120deg);
 }
-@media (max-width: 950px) {
-  #about .theTeam img {
-    width: 70%;
-  }
+#about .theTeam .pics1 {
+  transform: rotate(-60deg);
 }
-#about .theTeam img:hover {
-  border: 7px inset blue;
+#about .theTeam .pics2 {
+  transform: rotate(-60deg);
+}
+#about .theTeam .pics:hover {
   animation: spin 2s ease;
 }
 #about .theTeam h5 {
@@ -677,7 +678,7 @@ header .header h2 {
 }
 @keyframes spin {
   100% {
-    transform: rotate(360deg);
+    transform: rotate(475deg);
   }
 }
 #footer {
