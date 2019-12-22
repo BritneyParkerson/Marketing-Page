@@ -2,7 +2,7 @@
 #about{
 	height: 100%;
 	
-    font-family: "Merriweather", sans-serif;
+    font-family: 'Indie Flower', cursive;
     color: #222;
     font-size: 1.6rem;
     background-image: @bg1;
@@ -34,6 +34,9 @@ h3 {
 	justify-content: center;
 	align-content: center;
 	@media @mobile {
+		font-size: 4rem;
+	}
+	@media @tablet {
 		font-size: 4rem;
 	}
  	.c {
@@ -100,6 +103,10 @@ h4 {
 		  margin-top: 5% ;
 		  margin-bottom: 5%;
 	  }
+	  @media @tablet {
+		margin-top: 5% ;
+		margin-bottom: 5%;
+	}
   }
 
 .theTeam {
@@ -152,9 +159,13 @@ h4 {
 
 	h5{
 	font-size: 2em;
+	text-shadow: 2px 2px 15px black;
+	box-shadow: 2px 2px 15px black;
 	}
 	h6{
 	font-size: 1.75em;
+	text-shadow: 2px 2px 15px black;
+	box-shadow: 2px 2px 15px black;
 	}
  .ui, .reactiia, .be{
 	 color: rgb(139, 172, 241);
@@ -162,10 +173,16 @@ h4 {
 	 @media @mobile{
 		color: rgb(133, 187, 238);
 	 }
+	 @media @tablet{
+		color: rgb(133, 187, 238);
+	 }
  }
  .reacti, .reactiib{
 	color: rgb(77, 190, 138);
 	@media @mobile{
+		color: rgb(182, 65, 236);
+	 }
+	 @media @tablet{
 		color: rgb(182, 65, 236);
 	 }
  }

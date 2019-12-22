@@ -52,7 +52,7 @@ h1 {
 
   .title2 {
   h2 {
-	font-family: 'Griffy', cursive;
+	
 	color: @font1;
 	font-size: 8rem;
 	font-weight: bold;
@@ -62,6 +62,9 @@ h1 {
 	line-height: 1.7em;
 	text-shadow: 2px 2px 15px limegreen;
 	@media @mobile {
+		font-size: 3rem;
+	}
+	@media @tablet {
 		font-size: 3rem;
 	}
   }
@@ -88,6 +91,9 @@ h1 {
 	align-content: center;
 
 	@media @mobile {
+		font-size: 1em;
+	}
+	@media @tablet {
 		font-size: 1em;
 	}
  }
@@ -203,6 +209,11 @@ h1 {
 		padding: 3px;
 		border: 1.5px outset white;
 	}
+	@media @tablet {
+		font-size: 2rem;
+		padding: 3px;
+		border: 1.5px outset white;
+	}
   }
   
   .dead{
@@ -215,6 +226,9 @@ h1 {
 	background: black;
 
 	@media @mobile {
+		border: 2.5px inset white;
+	}
+	@media @tablet {
 		border: 2.5px inset white;
 	}
   }
@@ -230,6 +244,9 @@ h1 {
 	@media @mobile {
 	 border: 2.5px inset white;
 	}
+	@media @tablet {
+		border: 2.5px inset white;
+	   }
   }
   
   strong {
