@@ -245,11 +245,17 @@ html {
 h1 {
   font-family: 'Nosifer', cursive;
   font-size: 10rem;
-  margin: auto /*0 0 -85%*/;
+  margin: auto -85%;
   justify-content: center;
   align-content: center;
 }
 @media (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+    margin: auto -5%;
+  }
+}
+@media (max-width: 950px) {
   h1 {
     font-size: 4rem;
     margin: auto -5%;
@@ -605,6 +611,11 @@ header .header h2 {
   align-content: center;
 }
 @media (max-width: 500px) {
+  #about h4 {
+    margin: auto;
+  }
+}
+@media (max-width: 950px) {
   #about h4 {
     margin: auto;
   }
