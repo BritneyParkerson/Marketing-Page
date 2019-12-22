@@ -245,7 +245,9 @@ html {
 h1 {
   font-family: 'Nosifer', cursive;
   font-size: 10rem;
-  margin: auto 0 0 -85%;
+  margin: auto /*0 0 -85%*/;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 500px) {
   h1 {
@@ -450,6 +452,7 @@ p {
 @media (max-width: 500px) {
   .dead,
   .alive {
+    font-size: 2rem;
     padding: 3px;
     border: 1.5px outset white;
   }
@@ -547,9 +550,13 @@ header .header h2 {
 #about h3 {
   font-family: 'Nosifer', cursive;
   font-size: 10rem;
-  margin: auto 0 0 -75%;
+  text-align: center;
+  margin: auto;
   text-shadow: 2px 2px 15px #5a0232;
   transform: skew(25deg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 500px) {
   #about h3 {
@@ -590,9 +597,11 @@ header .header h2 {
   font-size: 15rem;
   padding: auto;
   text-align: center;
-  margin: 0 0 10% -10%;
+  margin: 0 0 10% -30%;
   letter-spacing: 0.1em;
   transform: skew(-25deg);
+  justify-content: center;
+  align-content: center;
 }
 #about h4 .t {
   color: #0A7E8C;
