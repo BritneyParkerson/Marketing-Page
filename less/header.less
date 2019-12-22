@@ -1,27 +1,64 @@
 h1 {
 	font-family: 'Nosifer', cursive;
-	color: #651186;
 	font-size: 10rem;
 	margin: auto 0 0 -85%;
 	@media @mobile {
 		font-size: 4rem;
 	}
+ 	.C {
+		color: red;
+	}
+	.E1 {
+		color: orange;
+	}
+	.L {
+		color: yellow;
+	}
+	.E2 {
+		color: green;
+	}
+	.B {
+		color: blue;
+	}
+	.R {
+		color: indigo;
+	}
+	.I {
+		color: violet;
+	}
+	.D1, .E3, .A, .D2 {
+		color: rgb(66, 66, 66);
+	}
+	// .E3 {
+	// 	color: gray;
+	// }
+	// .A {
+	// 	color: lightgray;
+	// }
+	// .D2 {
+	// 	color: silver;
+	// }
+
   }
+
+  .title2 {
   h2 {
-	font-family: "Merriweather", sans-serif;
-	color: #222;
-	font-size: 4rem;
+	font-family: 'Griffy', cursive;
+	color: @font1;
+	font-size: 8rem;
+	font-weight: bold;
 	padding: auto;
 	text-align: center;
 	margin: 30px 0 0 0;
 	line-height: 1.7em;
+	text-shadow: 2px 2px 15px limegreen;
 	@media @mobile {
 		font-size: 3rem;
 	}
   }
+}
   p {
 	line-height: 1.3;
-	font-family: "Merriweather", sans-serif;
 	color: #651186;
   }
   
@@ -33,7 +70,7 @@ h1 {
 	text-align: center;
 
  p {
-	font-size: 1.4em;
+	font-size: 2em;
 	line-height: 1.5;
 	font-weight: bold;
 	letter-spacing: .2em;
@@ -53,6 +90,9 @@ h1 {
 	  padding: 1.5%;
 	  background-image: @bg6; 
 	  color: snow;
+	  text-shadow: 2px 2px 15px black;
+	  font-family: 'Indie Flower', cursive;
+	  box-shadow: 3px 3px 15px limegreen;
   }
 
   .p1:hover, .p2a:hover, .p2b:hover, .p3:hover{
@@ -67,7 +107,8 @@ h1 {
 	align-items: center;
   }
   .p1{
-	border-radius: 25% 25% 2% 2%; 
+	border-radius: 40% 40% 10% 10%; 
+    
 	@media @mobile {
 		width: 100%;
 		border-radius: 2%;
@@ -80,7 +121,7 @@ h1 {
 	}
   }
  .p3{
-	border-radius: 2% 2% 25% 25%;
+	border-radius: 10% 10% 40% 40%;
 	@media @mobile {
 		width: 100%;
 		border-radius: 2%;
@@ -97,8 +138,9 @@ h1 {
 	width: 35%;
 }
 .p2a{
-	border-radius: 25% 2%;
+	border-radius: 30% 30% 60% 40%;
 	width: 35%;
+	transform: skew(25deg);
 	@media @mobile {
 		width: 100%;
 		border-radius: 2%;
@@ -109,8 +151,9 @@ h1 {
 	}
 }
 .p2b{
-	border-radius:2% 25%;
+	border-radius: 50% 40% 30% 30%;
 	width: 35%;
+	transform: skew(-25deg);
 	@media @mobile {
 		width: 100%;
 		border-radius: 2%;
@@ -140,9 +183,11 @@ h1 {
   .dead, .alive {
 	border: 3px outset white;
 	padding:10px;
-	border-radius: 30% 2%;
+	font-size: 5rem;
 	font-weight: bold;
 	position: relative;
+	text-shadow: 2px 2px 15px whitesmoke;
+	box-shadow: 3px 3px 15px limegreen;	
 
 	@media @mobile {
 		padding: 3px;
@@ -153,6 +198,7 @@ h1 {
   .dead{
    background: grey;
    color: black;
+   border-radius: 50% 2%;
   }
   .dead:hover{
 	border: 4px inset white;
@@ -163,12 +209,14 @@ h1 {
 	}
   }
   .alive{
-	background: cadetblue;
+	background: rgb(2, 143, 143);
 	color: blue;
+	border-radius: 2% 50%;
   }
   .alive:hover{
 	border: 4px inset white;
 	background: navy;
+	color: aquamarine;
 	@media @mobile {
 	 border: 2.5px inset white;
 	}
@@ -214,3 +262,4 @@ h1 {
 	color: @font1;
   }
 }
+
