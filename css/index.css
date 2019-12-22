@@ -632,6 +632,12 @@ header .header h2 {
 #about h4 .m {
   color: #733380;
 }
+@media (max-width: 500px) {
+  #about section {
+    margin-top: 5% ;
+    margin-bottom: 5%;
+  }
+}
 #about .theTeam {
   text-align: center;
   display: flex;
