@@ -607,6 +607,7 @@ header .header h2 {
 @media (max-width: 500px) {
   #about h4 {
     margin: auto 2%;
+    transform: skew(-15deg);
   }
 }
 #about h4 .t {
