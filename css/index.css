@@ -595,19 +595,18 @@ header .header h2 {
 #about h4 {
   font-family: 'Fredericka the Great', cursive;
   color: #222;
-  font-size: 12rem;
+  font-size: 10rem;
   padding: auto;
   text-align: center;
   margin: 0 0 10% -30%;
   letter-spacing: 0.1em;
-  transform: skew(-25deg);
+  transform: skew(-10deg);
   justify-content: center;
   align-content: center;
 }
 @media (max-width: 500px) {
   #about h4 {
     margin: auto;
-    transform: skew(-15deg);
   }
 }
 #about h4 .t {
