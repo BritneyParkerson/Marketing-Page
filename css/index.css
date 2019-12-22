@@ -278,6 +278,7 @@ h1 .E3,
 h1 .A,
 h1 .D2 {
   color: #424242;
+  text-shadow: 2px 2px 15px limegreen;
 }
 .title2 h2 {
   font-family: 'Griffy', cursive;
@@ -502,7 +503,7 @@ header .celebs {
   position: absolute;
   height: 500px;
   width: 4700px;
-  background-image: url("/img/celebfloat2.jpg");
+  background-image: url("/img/celebs.jpg");
   animation: move 150s infinite linear;
   will-change: transform;
   opacity: 0.5;
@@ -534,30 +535,76 @@ header .header h2 {
     background-image: linear-gradient(to right, #3bc0f4 0%, #453a94 50%, #5d2b7a 100%);
   }
 }
-#about header div.teamscroll {
+#about .team {
   position: absolute;
   height: 500px;
   width: 4000px;
-  background-image: url("/img/teamfloat.jpg");
+  background-image: url("/img/team.jpg");
   animation: move 75s infinite linear;
   will-change: transform;
   opacity: 0.4;
 }
 #about h3 {
-  font-family: "Alfa Slab One", sans-serif;
-  color: #651186;
-  font-size: 6rem;
-  margin: 30px 0 5px 0;
-  text-align: center;
+  font-family: 'Nosifer', cursive;
+  font-size: 10rem;
+  margin: auto 0 0 -75%;
+  text-shadow: 2px 2px 15px #5a0232;
+  transform: skew(25deg);
+}
+@media (max-width: 500px) {
+  #about h3 {
+    font-size: 4rem;
+  }
+}
+#about h3 .c {
+  color: #11849e;
+}
+#about h3 .e1 {
+  color: #8D4E85;
+}
+#about h3 .l {
+  color: #00755E;
+}
+#about h3 .e2 {
+  color: #FFD12A;
+}
+#about h3 .b {
+  color: #A50B5E;
+}
+#about h3 .r {
+  color: #B56917;
+}
+#about h3 .i {
+  color: #FF404C;
+}
+#about h3 .d1,
+#about h3 .e3,
+#about h3 .a,
+#about h3 .d2 {
+  color: whitesmoke;
+  text-shadow: 2px 2px 15px #ff0000;
 }
 #about h4 {
-  font-family: "Merriweather", sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   color: #222;
-  font-size: 4rem;
+  font-size: 15rem;
   padding: auto;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 10% -10%;
   letter-spacing: 0.1em;
+  transform: skew(-25deg);
+}
+#about h4 .t {
+  color: #0A7E8C;
+}
+#about h4 .e4 {
+  color: #00755E;
+}
+#about h4 .a2 {
+  color: #8D4E85;
+}
+#about h4 .m {
+  color: #733380;
 }
 #about .theTeam {
   text-align: center;
