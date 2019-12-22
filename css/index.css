@@ -252,6 +252,7 @@ h1 {
 @media (max-width: 500px) {
   h1 {
     font-size: 4rem;
+    margin: auto -10%;
   }
 }
 h1 .C {
@@ -602,6 +603,11 @@ header .header h2 {
   transform: skew(-25deg);
   justify-content: center;
   align-content: center;
+}
+@media (max-width: 500px) {
+  #about h4 {
+    margin: auto 10%;
+  }
 }
 #about h4 .t {
   color: #0A7E8C;
