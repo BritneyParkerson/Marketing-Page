@@ -606,7 +606,7 @@ header .header h2 {
 }
 @media (max-width: 500px) {
   #about h4 {
-    margin: auto 10%;
+    margin: auto 2%;
   }
 }
 #about h4 .t {
