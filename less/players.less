@@ -65,7 +65,7 @@ h3 {
 
 .clients {
 	position: absolute;
-	height: 500px;
+	height: 475px;
 	width: 9000px;
 	background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/GD2DKPODY2.jpg");
 	animation: move 225s infinite linear;
@@ -140,6 +140,14 @@ p {
 
  img{
 	 margin-right: 1%;
+	 @media @mobile{
+		width: 20%;
+		height: 20%;
+	 }
+	 @media @tablet{
+		width: 20%;
+		height: 20%;
+	 }
  }
 }
 
@@ -148,8 +156,24 @@ p {
 
    img{
 	margin-left: 1%;
+	@media @mobile{
+		width: 20%;
+		height: 20%;
+	 }
+	 @media @tablet{
+		width: 20%;
+		height: 20%;
+	 }
 }
 }
+
+@media @mobile{
+	font-size: 0.25em;
+ }
+ @media @tablet{
+	font-size: 0.25em;
+ }
+
 }
 
 .comments {
@@ -158,10 +182,34 @@ p {
 	align-content: center;
 	width: 80%;
 	margin: auto 10%;
+	font-size: 1.5em;
+	h4{
+	margin-bottom: 1%;
+	text-shadow: -1px -1px 0 whitesmoke,
+	1px -1px 0 whitesmoke,
+	-1px 1px 0 whitesmoke,
+	1px 1px 0 whitesmoke;
+	}
+
+	div{
+		font-size: 2em;
+		margin-bottom: 1%;
+		@media @mobile{
+			font-size: 0.75em;
+		 }
+		 @media @tablet{
+			font-size: 0.75em;
+		 }
+	}
 
 	input {
-		width: 25%;
 		font-size: 0.75em;
+		@media @mobile{
+			font-size: 0.5em;
+		 }
+		 @media @tablet{
+			font-size: 0.5em;
+		 }
 	}
 	textarea{
 		width: 50%;

@@ -854,7 +854,7 @@ header .header h2 {
 }
 #players .clients {
   position: absolute;
-  height: 500px;
+  height: 475px;
   width: 9000px;
   background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/GD2DKPODY2.jpg");
   animation: move 225s infinite linear;
@@ -939,6 +939,22 @@ header .header h2 {
 #players .thoughts .Ryuk img {
   margin-right: 1%;
 }
+@media (max-width: 500px) {
+  #players .thoughts .Negan img,
+  #players .thoughts .Toby img,
+  #players .thoughts .Ryuk img {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (max-width: 1105px) {
+  #players .thoughts .Negan img,
+  #players .thoughts .Toby img,
+  #players .thoughts .Ryuk img {
+    width: 20%;
+    height: 20%;
+  }
+}
 #players .thoughts .Sage,
 #players .thoughts .Phoebe,
 #players .thoughts .Melodey {
@@ -949,16 +965,70 @@ header .header h2 {
 #players .thoughts .Melodey img {
   margin-left: 1%;
 }
+@media (max-width: 500px) {
+  #players .thoughts .Sage img,
+  #players .thoughts .Phoebe img,
+  #players .thoughts .Melodey img {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (max-width: 1105px) {
+  #players .thoughts .Sage img,
+  #players .thoughts .Phoebe img,
+  #players .thoughts .Melodey img {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (max-width: 500px) {
+  #players .thoughts {
+    font-size: 0.25em;
+  }
+}
+@media (max-width: 1105px) {
+  #players .thoughts {
+    font-size: 0.25em;
+  }
+}
 #players .comments {
   display: flex;
   justify-content: center;
   align-content: center;
   width: 80%;
   margin: auto 10%;
+  font-size: 1.5em;
+}
+#players .comments h4 {
+  margin-bottom: 1%;
+  text-shadow: -1px -1px 0 whitesmoke, 1px -1px 0 whitesmoke, -1px 1px 0 whitesmoke, 1px 1px 0 whitesmoke;
+}
+#players .comments div {
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+@media (max-width: 500px) {
+  #players .comments div {
+    font-size: 0.75em;
+  }
+}
+@media (max-width: 1105px) {
+  #players .comments div {
+    font-size: 0.75em;
+  }
 }
 #players .comments input {
-  width: 25%;
   font-size: 0.75em;
+}
+@media (max-width: 500px) {
+  #players .comments input {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1105px) {
+  #players .comments input {
+    font-size: 0.5em;
+  }
 }
 #players .comments textarea {
   width: 50%;
