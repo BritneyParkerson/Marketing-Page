@@ -855,9 +855,9 @@ header .header h2 {
 #players .clients {
   position: absolute;
   height: 500px;
-  width: 4000px;
+  width: 9000px;
   background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/GD2DKPODY2.jpg");
-  animation: move 50s infinite linear;
+  animation: move 225s infinite linear;
   will-change: transform;
   opacity: 0.7;
 }
@@ -877,6 +877,91 @@ header .header h2 {
   #players h4 {
     font-size: 3rem;
   }
+}
+#players .T-1,
+#players .T-3,
+#players .T-5,
+#players .T-7,
+#players .T-9,
+#players .T-11,
+#players .T-13,
+#players .T-15 {
+  color: #50BFE6;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#players .T-2,
+#players .T-4,
+#players .T-6,
+#players .T-8,
+#players .T-10,
+#players .T-12,
+#players .T-14 {
+  color: #EE34D2;
+  text-shadow: -1px -1px 0 whitesmoke, 1px -1px 0 whitesmoke, -1px 1px 0 whitesmoke, 1px 1px 0 whitesmoke;
+}
+#players .thoughts {
+  margin: 2% auto;
+  display: inline-block;
+  text-align: left;
+  font-size: 30px;
+  border: 2px solid black;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#players .thoughts p {
+  padding: 0 2% 0 2%;
+  color: black;
+  font-size: 1.3em;
+}
+#players .thoughts .Negan,
+#players .thoughts .Sage,
+#players .thoughts .Toby,
+#players .thoughts .Phoebe,
+#players .thoughts .Ryuk,
+#players .thoughts .Melodey {
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#players .thoughts .Negan,
+#players .thoughts .Toby,
+#players .thoughts .Ryuk {
+  background: repeating-linear-gradient(#AAF0D1 0%, #5DADEC 50%, #AAF0D1 100%);
+}
+#players .thoughts .Negan img,
+#players .thoughts .Toby img,
+#players .thoughts .Ryuk img {
+  margin-right: 1%;
+}
+#players .thoughts .Sage,
+#players .thoughts .Phoebe,
+#players .thoughts .Melodey {
+  background: repeating-linear-gradient(#66FF66 0%, #299617 50%, #66FF66 100%);
+}
+#players .thoughts .Sage img,
+#players .thoughts .Phoebe img,
+#players .thoughts .Melodey img {
+  margin-left: 1%;
+}
+#players .comments {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  margin: auto 10%;
+}
+#players .comments input {
+  width: 25%;
+  font-size: 0.75em;
+}
+#players .comments textarea {
+  width: 50%;
 }
 @font-face {
   font-family: 'Creepster';

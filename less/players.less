@@ -66,9 +66,9 @@ h3 {
 .clients {
 	position: absolute;
 	height: 500px;
-	width: 4000px;
+	width: 9000px;
 	background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/GD2DKPODY2.jpg");
-	animation: move 50s infinite linear;
+	animation: move 225s infinite linear;
 	will-change: transform;
 	opacity: 0.7;
   }
@@ -88,5 +88,84 @@ h4 {
  }
 }
 
+.T-1, .T-3, .T-5, .T-7, .T-9, .T-11, .T-13, .T-15 {
+	color: #50BFE6;
+	text-shadow: -1px -1px 0 black, 
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;
+
 }
 
+.T-2, .T-4, .T-6, .T-8, .T-10, .T-12, .T-14 {
+	color: #EE34D2;
+	text-shadow: -1px -1px 0 whitesmoke,
+	1px -1px 0 whitesmoke,
+	-1px 1px 0 whitesmoke,
+	1px 1px 0 whitesmoke;
+	
+}
+//Thoughts
+
+.thoughts {
+	margin: 2% auto;
+	display: inline-block;
+	text-align: left;
+	font-size: 30px;
+	border: 2px solid black;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+p {
+	padding: 0 2% 0 2%;
+	color: black;
+	font-size: 1.3em;
+}
+
+
+.Negan, .Sage, .Toby, .Phoebe, .Ryuk, .Melodey {
+	border: 2px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.Negan, .Toby, .Ryuk {
+ background: repeating-linear-gradient(#AAF0D1 0%, #5DADEC 50%, #AAF0D1 100%);
+
+ img{
+	 margin-right: 1%;
+ }
+}
+
+.Sage, .Phoebe, .Melodey {
+   background: repeating-linear-gradient(#66FF66 0%, #299617 50%, #66FF66 100%);
+
+   img{
+	margin-left: 1%;
+}
+}
+}
+
+.comments {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 80%;
+	margin: auto 10%;
+
+	input {
+		width: 25%;
+		font-size: 0.75em;
+	}
+	textarea{
+		width: 50%;
+	}
+}
+
+}
