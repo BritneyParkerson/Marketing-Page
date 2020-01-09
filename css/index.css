@@ -1137,7 +1137,7 @@ header .header h2 {
   align-content: center;
   flex-direction: column;
   width: 80%;
-  margin: auto 30%;
+  margin: auto 20%;
   font-size: 1.5em;
 }
 #login-page .logins h4 {
@@ -1256,7 +1256,7 @@ header .header h2 {
   align-content: center;
   flex-direction: column;
   width: 80%;
-  margin: auto 30%;
+  margin: auto 20%;
   font-size: 1.5em;
 }
 #register .registeration h4 {
