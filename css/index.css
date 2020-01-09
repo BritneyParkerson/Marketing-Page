@@ -1070,6 +1070,244 @@ header .header h2 {
 #players .comments textarea {
   width: 50%;
 }
+#login-page {
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+  color: #222;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to right, black 0%, lime 10%, slateblue 20%, #AD4379 30%, #676767 40%, black 50%, #676767 60%, #AD4379 70%, slateblue 80%, lime 90%, black 100%);
+}
+#login-page h3 {
+  font-family: 'Nosifer', cursive;
+  font-size: 10rem;
+  text-align: center;
+  margin: auto;
+  text-shadow: 2px 2px 15px #5a0232;
+  transform: skew(25deg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  #login-page h3 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1105px) {
+  #login-page h3 {
+    font-size: 4rem;
+  }
+}
+#login-page h3 .R0,
+#login-page h3 .G0,
+#login-page h3 .S0,
+#login-page h3 .E00 {
+  color: white;
+  text-shadow: 2px 2px 15px black;
+}
+#login-page h3 .E0,
+#login-page h3 .I0,
+#login-page h3 .T0,
+#login-page h3 .R00 {
+  color: black;
+  text-shadow: 2px 2px 15px white;
+}
+#login-page .log {
+  position: absolute;
+  height: 475px;
+  width: 9000px;
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/COVDWMSKLR.jpg");
+  animation: move 225s infinite linear;
+  will-change: transform;
+  opacity: 0.7;
+}
+@media (max-width: 500px) {
+  #login-page .log {
+    height: 400px;
+  }
+}
+@media (max-width: 1105px) {
+  #login-page .log {
+    height: 400px;
+  }
+}
+#login-page .logins {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto 30%;
+  font-size: 1.5em;
+}
+#login-page .logins h4 {
+  margin-bottom: 1%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#login-page .logins h4 {
+  font-size: 3em;
+  color: lime;
+  font-family: 'Fredericka the Great', cursive;
+}
+@media (max-width: 500px) {
+  #login-page .logins h4 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1105px) {
+  #login-page .logins h4 {
+    font-size: 1em;
+  }
+}
+#login-page .logins div {
+  color: lime;
+  margin: auto 10%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+@media (max-width: 500px) {
+  #login-page .logins div {
+    font-size: 0.75em;
+  }
+}
+@media (max-width: 1105px) {
+  #login-page .logins div {
+    font-size: 0.75em;
+  }
+}
+#login-page .logins input {
+  font-size: 0.75em;
+}
+@media (max-width: 500px) {
+  #login-page .logins input {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1105px) {
+  #login-page .logins input {
+    font-size: 0.5em;
+  }
+}
+#register {
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+  color: #222;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to right, blue 0%, yellow 10%, red 20%, orange 30%, silver 40%, black 50%, silver 60%, orange 70%, red 80%, yellow 90%, blue 100%);
+}
+#register h3 {
+  font-family: 'Nosifer', cursive;
+  font-size: 10rem;
+  text-align: center;
+  margin: auto;
+  text-shadow: 2px 2px 15px #5a0232;
+  transform: skew(25deg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  #register h3 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1105px) {
+  #register h3 {
+    font-size: 4rem;
+  }
+}
+#register h3 .R0,
+#register h3 .G0,
+#register h3 .S0,
+#register h3 .E00 {
+  color: white;
+  text-shadow: 2px 2px 15px black;
+}
+#register h3 .E0,
+#register h3 .I0,
+#register h3 .T0,
+#register h3 .R00 {
+  color: black;
+  text-shadow: 2px 2px 15px white;
+}
+#register .reg {
+  position: absolute;
+  height: 475px;
+  width: 9000px;
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/6YLKY6CUWI.jpg");
+  animation: move 225s infinite linear;
+  will-change: transform;
+  opacity: 0.7;
+}
+@media (max-width: 500px) {
+  #register .reg {
+    height: 400px;
+  }
+}
+@media (max-width: 1105px) {
+  #register .reg {
+    height: 400px;
+  }
+}
+#register .registeration {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto 30%;
+  font-size: 1.5em;
+}
+#register .registeration h4 {
+  margin-bottom: 1%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 whitesmoke, -1px 1px 0 black, 1px 1px 0 whitesmoke;
+}
+#register .registeration h4 {
+  font-size: 3em;
+  color: blue;
+  font-family: 'Fredericka the Great', cursive;
+}
+@media (max-width: 500px) {
+  #register .registeration h4 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1105px) {
+  #register .registeration h4 {
+    font-size: 1em;
+  }
+}
+#register .registeration div {
+  color: blue;
+  margin: auto 10%;
+  text-shadow: -1px -1px 0 whitesmoke, 1px -1px 0 whitesmoke, -1px 1px 0 whitesmoke, 1px 1px 0 whitesmoke;
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+@media (max-width: 500px) {
+  #register .registeration div {
+    font-size: 0.75em;
+  }
+}
+@media (max-width: 1105px) {
+  #register .registeration div {
+    font-size: 0.75em;
+  }
+}
+#register .registeration input {
+  font-size: 0.75em;
+}
+@media (max-width: 500px) {
+  #register .registeration input {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1105px) {
+  #register .registeration input {
+    font-size: 0.5em;
+  }
+}
 @font-face {
   font-family: 'Creepster';
   font-style: normal;
