@@ -16,7 +16,7 @@
 .team {
 	position: absolute;
 	height: 500px;
-	width: 4000px;
+	width: 5000px;
 	background-image: url("/img/team.jpg");
 	animation: move 75s infinite linear;
 	will-change: transform;
@@ -163,7 +163,7 @@ h4 {
 	box-shadow: 2px 2px 15px black;
 	}
 	h6{
-	font-size: 1.75em;
+	font-size: 2em;
 	text-shadow: 2px 2px 15px black;
 	box-shadow: 2px 2px 15px black;
 	}
@@ -185,8 +185,24 @@ h4 {
 	 @media @tablet{
 		color: rgb(182, 65, 236);
 	 }
+	 
  }
 
+ .uiP, .reactiP, .reactiiaP, .reactiibP, .beP {
+	color: whitesmoke;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	text-shadow: 2px 2px 15px black;
+	box-shadow: 2px 2px 15px black;
+	letter-spacing: .1em;
+	border-radius: 5%;
+	 }
+
+	 .uiP:hover, .reactiP:hover, 
+	 .reactiiaP:hover, .reactiibP:hover,
+	 .beP:hover{
+		animation: wiggle 0.5s ease;
+	}
 }
 
 }
@@ -206,4 +222,22 @@ h4 {
 
 @keyframes spin{
 	100% {transform: rotate(475deg);}
+}
+
+@keyframes wiggle {
+	0% {transform: rotate(15deg);}
+	25% {transform: rotate(-15deg);}
+	50% {transform: rotate(15deg);}
+	75% {transform: rotate(-15deg);}
+	100% {transform: rotate(15deg);}
+
+	// 0% {
+	// 	transform: translateX(0px) translateY(15px);
+	//   }
+	//   50% {
+	// 	transform: translateX(0px) translateY(-15px);
+	//   }
+	//   100% {
+	// 	transform: translateX(0) translateY(15px);
+	//   }
 }

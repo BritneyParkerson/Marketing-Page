@@ -575,7 +575,7 @@ header .header h2 {
 #about .team {
   position: absolute;
   height: 500px;
-  width: 4000px;
+  width: 5000px;
   background-image: url("/img/team.jpg");
   animation: move 75s infinite linear;
   will-change: transform;
@@ -713,7 +713,7 @@ header .header h2 {
   box-shadow: 2px 2px 15px black;
 }
 #about .theTeam h6 {
-  font-size: 1.75em;
+  font-size: 2em;
   text-shadow: 2px 2px 15px black;
   box-shadow: 2px 2px 15px black;
 }
@@ -752,6 +752,26 @@ header .header h2 {
     color: #b641ec;
   }
 }
+#about .theTeam .uiP,
+#about .theTeam .reactiP,
+#about .theTeam .reactiiaP,
+#about .theTeam .reactiibP,
+#about .theTeam .beP {
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  text-shadow: 2px 2px 15px black;
+  box-shadow: 2px 2px 15px black;
+  letter-spacing: 0.1em;
+  border-radius: 5%;
+}
+#about .theTeam .uiP:hover,
+#about .theTeam .reactiP:hover,
+#about .theTeam .reactiiaP:hover,
+#about .theTeam .reactiibP:hover,
+#about .theTeam .beP:hover {
+  animation: wiggle 0.5s ease;
+}
 @keyframes move {
   0% {
     transform: translateY(0px) translateX(1000px);
@@ -766,6 +786,23 @@ header .header h2 {
 @keyframes spin {
   100% {
     transform: rotate(475deg);
+  }
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(15deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(15deg);
   }
 }
 #footer {
@@ -1102,6 +1139,13 @@ header .header h2 {
   font-weight: 400;
   font-display: swap;
   src: local('Princess Sofia'), local('PrincessSofia'), url(https://fonts.gstatic.com/s/princesssofia/v8/qWczB6yguIb8DZ_GXZst16n7GSz8kjE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Ruthie';
